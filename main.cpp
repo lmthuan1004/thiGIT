@@ -10,5 +10,9 @@ int ktraSHT(){
 	return s==n;
 }
 int main(){
+	int n;
+	cout <<"Nhap vao n so nguyen: ";
+	cin >> n;
 	cout <<"So hoan thien la:" <<ktraSHT();
+	return 0;
 }
