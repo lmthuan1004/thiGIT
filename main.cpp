@@ -10,6 +10,9 @@ int ktraSoCP(){
 	return s;
 }
 int main(){
+	int n;
+	cout <<"Nhap vao n so nguyen:";
+	cin >> n;
 	cout <<"So chinh phuong la:" <<ktraSoCP();
 	return 0;
 }
